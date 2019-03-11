@@ -69,6 +69,21 @@ div.column.is-8:first-child {
 #navbarMenu {
   text-align: center;
 }
+
+.anchor {
+  color: #363636;
+  cursor: default;
+}
+.anchor:hover {
+  color: #363636;
+}
+
+.anchor:target:before {
+  content:"";
+  display:block;
+  height:200px; /* fixed header height*/
+  margin:-200px 0 0; /* negative fixed header height */
+  }
 /* Media Queries */
 
 /* Smartphones */
